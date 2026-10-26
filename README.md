@@ -26,15 +26,13 @@ LPF Explorer can also be used independently of LPF Organizer.
 
 ## Download and installation
 
-1. Open the **Releases** section of this repository.
-2. Download the latest `LPF-Explorer-*.dmg`.
-3. Open the disk image.
-4. Drag **LPF Explorer** into the Applications folder.
-5. Eject the disk image.
+1. Open the [latest release](https://github.com/lespetitesfugues/LPF-Explorer/releases/latest).
+2. Download `LPFExplorer-1.0.0.zip`.
+3. Double-click the ZIP file to extract **LPF Explorer.app**.
+4. Move **LPF Explorer.app** to your Applications folder.
+5. Launch the application normally.
 
-**Important:** This release is not yet signed with an Apple Developer ID or notarized by Apple. macOS may prevent it from opening initially. If you trust the downloaded application, try opening it, then go to **System Settings → Privacy & Security → Open Anyway** and confirm.
-
-Do not bypass a warning that macOS has detected malware or a damaged application.
+**LPF Explorer is signed with an Apple Developer ID certificate and notarized by Apple.** No special security settings or Gatekeeper workarounds are required. On first launch, macOS may display its normal confirmation that the application was downloaded from the internet.
 
 ## Companion application
 
@@ -44,7 +42,7 @@ Together, LPF Explorer and LPF Organizer provide a simple, filesystem-based phot
 
 ## Privacy
 
-LPF Explorer works with local files and folders. No cloud account or proprietary photo library is required.
+LPF Explorer works with local files and folders. No cloud account or proprietary photo library is required. The app makes an HTTPS request to `lpf.one` to check for software updates; it does not upload your photographs or their metadata.
 
 ## Support the project
 
